@@ -87,6 +87,83 @@
       "balance": 0,
       "createdAt": "2023-09-05T06:07:08.568Z",
       "modifiedAt": "2023-09-05T06:07:08.568Z"
+    },
+    {
+      "id": "Il0WO14b-",
+      "uuid": "1cb0ddd5-5ded-427c-b937-6bbf9ec03a21",
+      "firstName": "randomFirstName",
+      "lastName": "randomFirstName",
+      "username": "randomUserName",
+      "password": "$2a$10$oyNZi.gKj87x9J7BFVRBSe5ENySX.W63mB.R8SK3xc7YG8XzrV/K.",
+      "balance": 0,
+      "createdAt": "2023-09-05T16:46:05.108Z",
+      "modifiedAt": "2023-09-05T16:46:05.108Z"
+    },
+    {
+      "id": "4FizFdhEN",
+      "uuid": "e792de81-c293-4081-88bc-7de46cc2df01",
+      "firstName": "randomFirstName",
+      "lastName": "randomFirstName",
+      "username": "randomUserName",
+      "password": "$2a$10$d36uwHcpk/KQn9yUNK7hNOHKIBRWO.PIHp0/cAHA8Gzhvh7jt6ouS",
+      "balance": 0,
+      "createdAt": "2023-09-05T16:47:06.639Z",
+      "modifiedAt": "2023-09-05T16:47:06.639Z"
+    },
+    {
+      "id": "lLIlnsLja",
+      "uuid": "06a65430-2ae4-4f26-8ac8-e17fe2bc5d06",
+      "firstName": "randomFirstName",
+      "lastName": "randomFirstName",
+      "username": "randomUserName",
+      "password": "$2a$10$t4oo6OY4NwCqS0HekESg6ehqH0JxpAQ1rrLDw02z1RfpmE4Cg4E0.",
+      "balance": 0,
+      "createdAt": "2023-09-05T17:04:11.722Z",
+      "modifiedAt": "2023-09-05T17:04:11.722Z"
+    },
+    {
+      "id": "ZwR_CSqHd",
+      "uuid": "6c5a0002-6bde-45b2-a2a0-d7ad61fcf873",
+      "firstName": "randomFirstName",
+      "lastName": "randomFirstName",
+      "username": "randomUserName",
+      "password": "$2a$10$fvKatuZGslzvoEH3SSNNmerVYvSusrBmwGDRcVug2lgORavqmmEq2",
+      "balance": 0,
+      "createdAt": "2023-09-05T17:04:24.601Z",
+      "modifiedAt": "2023-09-05T17:04:24.601Z"
+    },
+    {
+      "id": "BrgZOaHpb",
+      "uuid": "fb6a4284-ef18-4092-95e5-2848a765a8d3",
+      "firstName": "randomFirstName",
+      "lastName": "randomFirstName",
+      "username": "randomUserName",
+      "password": "$2a$10$Vlqonp/we/2pMutTe7N/9OS9gmM4TeaoN.0Da5Z1Brl9HoqarUiWu",
+      "balance": 0,
+      "createdAt": "2023-09-05T17:04:48.447Z",
+      "modifiedAt": "2023-09-05T17:04:48.447Z"
+    },
+    {
+      "id": "NoRv_624D",
+      "uuid": "76b67883-3d93-4865-aa86-42dde70ce3a1",
+      "firstName": "randomFirstName",
+      "lastName": "randomFirstName",
+      "username": "randomUserName",
+      "password": "$2a$10$1RgKFURI.ff5sh1Oapw1yuYhylJloiP3wf3vKBuhoKlnEzeRXP/mW",
+      "balance": 0,
+      "createdAt": "2023-09-05T17:09:37.881Z",
+      "modifiedAt": "2023-09-05T17:09:37.881Z"
+    },
+    {
+      "id": "KrqklpNKv",
+      "uuid": "8ae509c9-edb3-4e38-9f86-6c0df99dd603",
+      "firstName": "Abdul",
+      "lastName": "Rasaq",
+      "username": "Third",
+      "password": "$2a$10$3kdzjHyq8nVe8YdcXdHwr.vprlnZ5kdQwMJGCH30AESXBmyP3y6Iq",
+      "balance": 0,
+      "createdAt": "2023-09-05T18:28:00.378Z",
+      "modifiedAt": "2023-09-05T18:28:00.378Z"
     }
   ],
   "contacts": [

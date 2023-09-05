@@ -1,12 +1,12 @@
 class SignUp {
 
     elements = {
-        signUp: () => cy.get('.MuiGrid-container > :nth-child(2)'),
-        firstName: () => cy.get("input[id='firstname']"),
-        lastName: () => cy.get("input[id='lastname']"),
-        userName: () => cy.get("input[id='username']"),
-        passWord: () => cy.get("input[id='password']"),
-        conPassword: () => cy.get("input[id='confirmPassword']"),
+        signUp: () => cy.get('[data-test="signup"]'),
+        firstName: () => cy.get('#firstName'),
+        lastName: () => cy.get('#lastName'),
+        userName: () => cy.get('#username'),
+        passWord: () => cy.get('#password'),
+        conPassword: () => cy.get('#confirmPassword'),
         signButton: () => cy.get("span[class='MuiButton-label']")
     }
 
@@ -14,41 +14,39 @@ class SignUp {
         const randomFirstName = generateRandomName();
         const randomLastName = generateRandomName();
         const randomUserName = generateRandomUserName();
-        const randomPassword = generateRandomPassword();
+    
 
-            this.elements.firstName().type("randomFirstName");
-            this.elements.lastName().type("randomFirstName");
-            this.elements.userName().type("randomUserName");
-            this.elements.passWord().type("randomPassword");
+        this.elements.signUp().click();
+        this.elements.firstName().type("randomFirstName");
+        this.elements.lastName().type("randomFirstName");
+        this.elements.userName().type("randomUserName");
+        this.elements.passWord().type("Dragnipur");
+        this.elements.conPassword().type("Dragnipur");
+        this.elements.signButton().click()
 
-            const randomConfirmPassword = generateRandomPassword();
-            
-            this.elements.conPassword().type("randomConfirmPassword");
-            this.elements.signButton().click()
-
-            function generateRandomName() {
-                const possibleChars =
-                  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-                let randomName = '';
-                for (let i = 0; i < 8; i++) {
-                  const randomIndex = Math.floor(Math.random() * possibleChars.length);
-                  randomName += possibleChars.charAt(randomIndex);
+        function generateRandomName() {
+        const possibleChars =
+        'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+        let randomName = '';
+        for (let i = 0; i < 8; i++) {
+        const randomIndex = Math.floor(Math.random() * possibleChars.length);
+        randomName += possibleChars.charAt(randomIndex);
                 }
-                return randomName;
+        return randomName;
               }
 
-              function generateRandomUserName() {
-                const possibleChars =
-                  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-                let randomUsername = '';
-                for (let i = 0; i < 8; i++) {
-                  const randomIndex = Math.floor(Math.random() * possibleChars.length);
-                  randomUsername += possibleChars.charAt(randomIndex);
+        function generateRandomUserName() {
+        const possibleChars =
+        'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let randomUsername = '';
+        for (let i = 0; i < 8; i++) {
+        const randomIndex = Math.floor(Math.random() * possibleChars.length);
+        randomUsername += possibleChars.charAt(randomIndex);
                 }
-                return randomUsername;
+        return randomUsername;
               }
     
-              function generateRandomPassword() {
+        function generateRandomPassword() {
                 const possibleChars =
                   'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
                 let randomPassword = '';
