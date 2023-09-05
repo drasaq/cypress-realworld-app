@@ -74,6 +74,19 @@
       "balance": 75369,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
+    },
+    {
+      "id": "FgobJTwoU",
+      "uuid": "496506a4-18c0-44e4-a7a8-e0877c20caba",
+      "firstName": "Dapo",
+      "lastName": "Okeowo",
+      "username": "Hokage",
+      "password": "$2a$10$feYUnOKxhDZrySs8yM87fuWGr.t8az7rgotdZamWjaaSJXM42WW1C",
+      "email": "Norene39@yahoo.com",
+      "phoneNumber": "625-316-9882",
+      "balance": 0,
+      "createdAt": "2023-09-05T06:07:08.568Z",
+      "modifiedAt": "2023-09-05T06:07:08.568Z"
     }
   ],
   "contacts": [
@@ -253,6 +266,17 @@
       "isDeleted": false,
       "createdAt": "2019-09-30T14:20:07.043Z",
       "modifiedAt": "2020-05-21T22:40:28.910Z"
+    },
+    {
+      "id": "vXoYgUDvd",
+      "uuid": "d447d011-e51c-4168-85d4-fcf26306f38e",
+      "userId": "FgobJTwoU",
+      "bankName": "Guaranty Trust Bank",
+      "accountNumber": "0037472659",
+      "routingNumber": "123478999",
+      "isDeleted": false,
+      "createdAt": "2023-09-05T06:07:34.928Z",
+      "modifiedAt": "2023-09-05T06:07:34.928Z"
     }
   ],
   "transactions": [
